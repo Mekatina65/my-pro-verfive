@@ -3,7 +3,7 @@
 const page = () => {
   return (
     <div className="text-3xl text-center mt-20 text-orange-500">
-      <p>home page</p>
+      <p>about page</p>
       
     </div>
   )
