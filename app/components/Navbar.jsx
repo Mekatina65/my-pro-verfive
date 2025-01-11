@@ -42,7 +42,7 @@ const Navbar = () => {
                 <button className=" bg-sky-500 text-slate-800 hover:text-sky-800 rounded-full uppercase font-bold px-8 py-2">login</button>
                 </Link>
                 <Link href='/signup'>
-                <button className="mr-5 bg-sky-500 text-slate-800 hover:text-sky-800 rounded-full uppercase font-bold px-8 py-2">signup</button>
+                <button className=" bg-sky-500 text-slate-800 hover:text-sky-800 rounded-full uppercase font-bold px-8 py-2">signup</button>
                 </Link>
             </div>
 
@@ -58,9 +58,9 @@ const Navbar = () => {
         </div>
 
         <div className={menuIcon ?
-            'md:hidden absolute top-[72px] right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen bg-gray-300 text-gray-600 text-center ease-in duration-300'
+            'md:hidden absolute top-[100px] right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen bg-gray-300 text-gray-600 text-center ease-in duration-300'
             :
-            'md:hidden absolute top-[72px] right-0 left-[-100%] flex justify-center items-center w-full h-screen bg-gray-300 text-gray-600 text-center ease-in duration-300'
+            'md:hidden absolute top-[100px] right-0 left-[-100%] flex justify-center items-center w-full h-screen bg-gray-300 text-gray-600 text-center ease-in duration-300'
         }>
 
             <div className="w-full">
